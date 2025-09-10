@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharfi Coffee Mart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-image: url('coffee-background.jpg');
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+        .header h1 {
+            font-size: 48px;
+            text-shadow: 2px 2px #333;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .product {
+            margin: 20px;
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Dharfi Coffee Mart</h1>
+    </div>
+    <div class="products">
+        <div class="product">
+            <img src="coffee1.jpg" alt="Coffee">
+            <h2>Specialty Coffee</h2>
+            <p>Our specialty coffee is made from the finest Arabica beans, roasted to perfection to bring out the full flavor and aroma.</p>
+        </div>
+        <div class="product">
+            <img src="coffee2.jpg" alt="Coffee">
+            <h2>Espresso</h2>
+            <p>Our espresso is made from a blend of Arabica and Robusta beans, roasted to bring out the full flavor and crema.</p>
+        </div>
+        <div class="product">
+            <img src="coffee3.jpg" alt="Coffee">
+            <h2>Cappuccino</h2>
+            <p>Our cappuccino is made with espresso, steamed milk, and a layer of foam on top, perfect for those who like a little bit of everything.</p>
+        </div>
+    </div>
+</body>
+</html>
